@@ -1,0 +1,107 @@
+body {
+    background-color: lightsteelblue;
+}
+
+.BankRegForm__ParentContainer {
+    width: 800px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.AccountReg__Heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #12458D;
+    color: #ffff;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.AccountType__Parent {
+    margin-top: 1rem;
+}
+
+.AccountType__Section {
+    display: flex;
+    gap: 1rem;
+}
+
+.PaddingExtra {
+    padding: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+.MarginBottom {
+    margin-bottom: 1rem;
+}
+
+.MarginTop {
+    margin-top: 1rem;
+}
+
+.CenterFlex {
+    display: flex;
+    align-items: center;
+}
+
+
+.HeadingColor {
+    color: #416393;
+}
+
+.Signature_Section {
+    margin-top: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-size: 17px;
+}
+
+.InputForm__Select {
+    width: 125px;
+    padding: 5px 0;
+}
+
+.Submit__Button {
+    background-color: #12458D;
+    color: #fff;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 8rem;
+}
+
+.SubmitButton__Container {
+    display: flex;
+    justify-content: center;
+}
+
+.CurrentAccount__ParentContainer {
+    display: none;
+}
+
+.countryList {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 0.4rem;
+}
+
+textarea {
+    padding: 5px;
+    resize: none;
+}
+
+.terms {
+    float: left;
+    margin-right: 0.4rem;
+}
