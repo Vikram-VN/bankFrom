@@ -54,6 +54,8 @@ addEventListener("resize", function (event) {
     alert("Screen size is changed");
 })
 
+// New change
+
 // Creating new label element 
 const dateLabel = document.createElement("label");
 dateLabel.innerText = "Submit Date: ";
